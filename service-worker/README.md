@@ -1,12 +1,16 @@
 # react-conf-service-worker
 
 ## Clone Project
+https://github.com/twclark0/react-conf-service-worker.git
+
 
 ## Run some type of server in the root of the file. I use http-server
 this demo was taken from react conf 2018 video for cross window communication from the
-same application. Service worker is used to achieve the functionality. in the standard 
+same application. Clone link above. Service worker is used to achieve the functionality. in the standard 
 react app also we see a service worker created. it is used for progressive app construction
-normally that file is not required so people delete it. 
+normally that file is not required so people delete it.
+
+Minor changes to have css corrected to be visible correctly in browser. 
 
 http-server also supports secure mode with -S option. for that   
  openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
